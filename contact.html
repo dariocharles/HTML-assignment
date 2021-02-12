@@ -25,7 +25,7 @@
             </header>
 
             <main class="content">
-    <!-- Questions here for separating sections within <main></main>! <div></div> or <section></section> or <article></article>-->
+    
                 <form method="post" action="">
                     <fieldset>
                         <legend>Personal Information:</legend>
@@ -38,8 +38,7 @@
                         <label for="email">Email:*</label>
                         <input type="email"  id="email" name="email" required maxlength="35"><br>
                                 
-            <!-- Question here for checkbox! <p></p> or <label for=""></label> (how to tie for="")-->
-                        <label>Please select the music genre(s) that you like:</label><br>
+                        <p>Please select the music genre(s) that you like:</p><br>
 
                         <input type="checkbox" id="classic" checked name="music-genres" value="classic">
                         <label for="classic">Classic</label><br>
@@ -53,8 +52,7 @@
                         <input type="checkbox" id="instrumental" name="music-genres" value="instrumental">
                         <label for="instrumental">Instrumental</label>
                     </fieldset>
-            <!-- Question here for <form></form>! Do I need more than one form? Only if method="" and action="" are different? -->
-                    
+            
                     <fieldset>
                         <legend>Your Message:</legend>
                         <label for="hear-about-us">How did you hear about us?</label>
@@ -64,7 +62,7 @@
                                 <option value="tv-adv">TV Adv.</option>
                                 <option value="other">Other</option>
                             </select>
-                        <label>Would you recommend us to your friends?</label><br>
+                        <p>Would you recommend us to your friends?</p><br>
                         <input type="radio" name="recommend" value="yes" id="yes" checked>
                         <label for="yes">Yes</label>
                         <input type="radio" name="recommend" value="no" id="no">
@@ -72,7 +70,6 @@
                         <input type="radio" name="recommend" value="maybe" id="maybe">
                         <label for="maybe">Maybe</label><br>
 
-            <!-- Question here for <textarea></textarea>! Does <textarea></textarea> replace type="text" -->
                         <label for="your-request">Your request:</label><br>
                         <textarea cols="40" rows="4" name="your-request" id="your-request"></textarea><br>
                         <input type="checkbox" name="sign-up" value="yes" id="sign-up" checked>
