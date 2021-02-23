@@ -1,3 +1,3 @@
 # HTML Essential Assignment
 ## First Assignment
-### FSSD Progrma, Canadian Business College
+### FSSD Program, Canadian Business College
